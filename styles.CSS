@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #a2967d
+    color: 
+}
+
+#about {
+    background-color: #000000;
+    color: #ffffff
+}
+#hero {
+    background-color: #a2967d
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000000;
+    padding: 120px 0;
+}
+#Digital-Design-1st-Period {
+    color: #ffffff
+    font-size: 50px;
+}
+.subtitle {
+    color: #122ba7
+    font-size: 30px;
+}
+.banner{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.webdesign {
+    font-size:15px;
+    line-height: 1.4;
+    margin-top: 10px;
+    color: rgb(1, 1, 176);
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section-padding {
+    padding: 60px 0;
+}
+#navbar {
+    background: #000000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li {
+    position: relative;
+}
+#navbar ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color 0.3s;
+}
+#navbar ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: #000000;
+    color: #ffffff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+.profile-photo {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+details {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+details[open] {
+    background: #e7f0fd;
+}
+ul {
+    list-style: disc inside;
+    margin-left: 1em;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #1c315f;
+    color: #fff;
+    margin-top: 20px;
+}
+
